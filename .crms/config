@@ -1,0 +1,12 @@
+git:
+  remote: git@github.com:jangcs/model_m7-windows.git
+dvc:
+  remote: gs://cr-model-test/model_m7-windows
+platform:
+  architecture: x86_64
+  os: linux
+  version: ''
+  device: cpu
+model:
+  name: model_m7
+  tag: windows
