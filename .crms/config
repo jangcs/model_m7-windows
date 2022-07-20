@@ -4,9 +4,9 @@ dvc:
   remote: gs://cr-model-test/model_m7-windows
 platform:
   architecture: x86_64
-  os: linux
-  version: ''
-  device: cpu
+  os: windows
+  version: 11
+  device: gpu
 model:
   name: model_m7
   tag: windows
